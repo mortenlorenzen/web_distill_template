@@ -1,0 +1,26 @@
+---
+title: "Web forside"
+site: distill::distill_website
+---
+
+
+Dette er min forside.
+\
+\
+Dette er en simpel hjemmeside lavet med R Markdown og distill, der egner sig til webside og blog. Hvis man bruger Netlify som server flyttes _site mappen (her er hele websiden opbygget i html) bare over i Netlify.
+\
+\
+
+### Links
++ [The distillery is a blog to build and customize distill sites](https://distillery.rbind.io) 
++ [rstudio4edu: distill](https://rstudio4edu.github.io/rstudio4edu-book/intro-distill.html) 
++ [Distill for R Markdown](https://rstudio.github.io/distill/) 
++ [distill for R Markdown](https://pkgs.rstudio.com/distill/index.html) 
++ [RStudio AI Blog](https://blogs.rstudio.com/ai/) 
++ [Building a website using R {distill}](https://www.youtube.com/watch?v=Fm3bsYCilEU) 
++ [Sharing on Short Notice: How to Get Your Materials Online With R Markdown](https://www.rstudio.com/resources/webinars/sharing-on-short-notice-how-to-get-your-materials-online-with-r-markdown/) 
+\
+\
+
+### Themes
+You can’t always get what you want: Note that Distill does not give you the option to use a floating TOC, change color themes, use code_download nor code_folding as you can in a regular .Rmd site. Another weird thing worth pointing out is that the only way to get a TOC on the index.Rmd page is to specify one globally within the _site.yml. It cannot be added individually to the index page alone (but it can be to other Distill pages).
