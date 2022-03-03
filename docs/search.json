@@ -1,0 +1,47 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this blog",
+      "author": [],
+      "contents": "\n\nMorten Lorenzen\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\nContact\n\n\n\n",
+      "last_modified": "2022-03-03T17:23:40+01:00"
+    },
+    {
+      "path": "blog.html",
+      "title": "Blog",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2022-03-03T17:23:41+01:00"
+    },
+    {
+      "path": "content.html",
+      "title": "Content",
+      "author": [],
+      "contents": "\nThis is where you link to the other files, which are in a content folder in the main directory.\nMake sure the name of the folder does not have an underscore in it.\nAnd, when you create and update the file, you need to reknit it!.\nContent 1\nContent 2\nContent 3\nContent 4, pdf\nContent 4, excel - does not open Excel!\nDe Rmd filer der ligger i websidens root mappe bliver automatisk “knit’et”! På denne webside er det content.Rmd, lab01.Rmd, lab02.Rmd og index.Rmd.\n\n\n\n",
+      "last_modified": "2022-03-03T17:23:41+01:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Web forside",
+      "author": [],
+      "contents": "\nDette er min forside.\nDette er en simpel hjemmeside lavet med R Markdown og distill, der egner sig til webside og blog. Hvis man bruger Netlify som server flyttes _site mappen (her er hele websiden opbygget i html) bare over i Netlify.\nLinks\nThe distillery is a blog to build and customize distill sites\nrstudio4edu: distill\nDistill for R Markdown\ndistill for R Markdown\nRStudio AI Blog\nBuilding a website using R {distill}\nSharing on Short Notice: How to Get Your Materials Online With R Markdown\nThemes\nYou can’t always get what you want: Note that Distill does not give you the option to use a floating TOC, change color themes, use code_download nor code_folding as you can in a regular .Rmd site. Another weird thing worth pointing out is that the only way to get a TOC on the index.Rmd page is to specify one globally within the _site.yml. It cannot be added individually to the index page alone (but it can be to other Distill pages).\n\n\n\n",
+      "last_modified": "2022-03-03T17:23:41+01:00"
+    },
+    {
+      "path": "lab01.html",
+      "title": "Lab 1",
+      "author": [],
+      "contents": "\nR Markdown\nThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.\nWhen you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:\n\n\nsummary(cars)\n\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00  \n\nIncluding Plots\nYou can also embed plots, for example:\n\n\n\nNote that the echo = FALSE parameter was added to the code chunk to prevent printing of the R code that generated the plot.\n\n\n\n",
+      "last_modified": "2022-03-03T17:23:43+01:00"
+    },
+    {
+      "path": "lab02.html",
+      "title": "Lab 2",
+      "author": [],
+      "contents": "\nR Markdown\nThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.\nWhen you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:\n\n\nsummary(cars)\n\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00  \n\nIncluding Plots\nYou can also embed plots, for example:\n\n\n\nNote that the echo = FALSE parameter was added to the code chunk to prevent printing of the R code that generated the plot.\n\n\n\n",
+      "last_modified": "2022-03-03T17:23:43+01:00"
+    }
+  ],
+  "collections": ["posts/posts.json"]
+}
