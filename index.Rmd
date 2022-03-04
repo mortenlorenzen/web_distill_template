@@ -13,12 +13,12 @@ Dette er en simpel hjemmeside lavet med R Markdown og distill, der egner sig til
 
 ### Links
 + [The distillery is a blog to build and customize distill sites](https://distillery.rbind.io) 
-+ [rstudio4edu: distill](https://rstudio4edu.github.io/rstudio4edu-book/intro-distill.html) 
-+ [Distill for R Markdown](https://rstudio.github.io/distill/) 
++ [rstudio4edu Chapter COOKBOOK: DISTILL SITES](https://rstudio4edu.github.io/rstudio4edu-book/intro-distill.html) 
++ [Distill for R Markdown, Homepage for distill](https://rstudio.github.io/distill/) 
 + [distill for R Markdown](https://pkgs.rstudio.com/distill/index.html) 
-+ [RStudio AI Blog](https://blogs.rstudio.com/ai/) 
-+ [Building a website using R {distill}](https://www.youtube.com/watch?v=Fm3bsYCilEU) 
-+ [Sharing on Short Notice: How to Get Your Materials Online With R Markdown](https://www.rstudio.com/resources/webinars/sharing-on-short-notice-how-to-get-your-materials-online-with-r-markdown/) 
++ [RStudio AI Blog = Example distill site](https://blogs.rstudio.com/ai/) 
++ [Building a website using R {distill}, YouTube tutorial](https://www.youtube.com/watch?v=Fm3bsYCilEU) 
++ [Sharing on Short Notice: How to Get Your Materials Online With R Markdown, RStudio tutorial - very useful!](https://www.rstudio.com/resources/webinars/sharing-on-short-notice-how-to-get-your-materials-online-with-r-markdown/) 
 \
 \
 
